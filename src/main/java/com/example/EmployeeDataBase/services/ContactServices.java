@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ContactServices {
+public class ContactServices implements ContactService {
     @Autowired
     ContactRepo contentRepo;
     @Autowired
